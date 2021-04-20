@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: adobe-handwriting-tiffany, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 16pt;
+    background-image: url(img/bg.png);
+    background-position: 58.5% center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1149bb;
+}
+
+
+button {
+    background-color: #ed2130;
+    padding: 1%;
+    max-width: 250px;
+    width: 70%;
+    box-shadow: black -4px 6px;
+    position: fixed;
+    top: 50%;
+    left: 13%;
+}
+
+p {
+    width: 125px;
+    line-height: 25px;
+    position: fixed;
+    top: 28%;
+    right: 33%;
+    text-align: center;
+}
+
+button img {
+    width: 100%;
+}
+
+button:hover {
+    background-color: #f6e122;
+}
